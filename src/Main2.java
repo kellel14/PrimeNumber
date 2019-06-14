@@ -29,11 +29,13 @@ public class Main2 {
             if (num % p == 0) {
                 ifPrime = false;
                 System.out.println(num + " is not a prime number");
+                break;
             }
 
         }
         if (ifPrime) {
             System.out.println(num + " is a prime number");
+
 
         }
     }
